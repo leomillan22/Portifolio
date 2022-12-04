@@ -83,6 +83,11 @@ main{
     color: #040305;
     margin-left: 5px;
     min-width: 170px;
+    opacity: 0;
+}
+#div-fixa a .flex-itens span.aparecer {
+    transition: 0.5s all;
+    opacity: 1;
 }
 
 /* ANIMACAO BOTAO */
