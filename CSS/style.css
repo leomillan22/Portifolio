@@ -7,6 +7,14 @@
     font-family: 'DM Sans', sans-serif;
     text-decoration: none;
 }
+
+nav a{
+    color: #040305;
+}
+
+
+
+
 body{
     background-color: #171717
 }
@@ -25,7 +33,7 @@ nav{
     font-size: 25px;
 }
 
-main{
+.container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -45,6 +53,36 @@ main{
 .stack{
     margin-top: 1em;
 }
+
+.card{
+    background-color: #040305;
+}
+.card-img-top{
+    height: 15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
