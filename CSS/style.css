@@ -32,14 +32,23 @@ nav{
     gap: 1em;
     font-size: 25px;
 }
-
+ /* CARDS  */
 .container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
-
+.container .card{
+    border-radius: 15px;
+    background-color: rgb(140, 30, 243);
+    align-items: center;
+}
+.card img {
+    margin: 5px;
+    width: 16.5rem;
+    height: 13rem;
+}
 .sobre{
     display: flex;
     flex-direction: column;
