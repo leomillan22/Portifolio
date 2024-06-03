@@ -40,15 +40,29 @@ nav{
 
 }
 .container .card{
+    display: flex;
     border-radius: 15px;
     background-color: rgb(140, 30, 243);
     align-items: center;
+    height: 30rem;
 }
 .card img {
     margin: 5px;
     width: 16.5rem;
     height: 13rem;
+    border-radius: 15px;
 }
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-body a{
+    margin-bottom: 0.5rem;
+}
+
+
+
 .sobre{
     display: flex;
     flex-direction: column;
