@@ -9,7 +9,8 @@
 }
 
 nav a{
-    color: #040305;
+    color: #ece7f1;
+    text-decoration: none;
 }
 
 
@@ -28,9 +29,10 @@ header{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 1em;
     font-size: 25px;
+    margin: 0 5rem;
 }
  /* CARDS  */
 .container{
